@@ -10,7 +10,7 @@
 
     session_start();
 
-    require_once "db.php";
+    require_once "../conn/db.php";
 
 
 
@@ -53,7 +53,7 @@
 
             </script>";
 
-            header("refresh:2; url=vote.php");
+            header("refresh:2; url=../vote.php");
 
         } else {
 

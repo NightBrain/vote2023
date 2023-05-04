@@ -4,7 +4,7 @@
 
     session_start();
 
-    require_once 'db.php';
+    require_once 'conn/db.php';
 
     if (!isset($_SESSION['vote_login'])) {
 
@@ -23,7 +23,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>VOTE 2023</title>
     <link rel="shortcut icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" />
-    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="css/css.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   </head>
@@ -51,7 +51,7 @@
                     <div class="modal-body">
                     พรรค...
                     <br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/User_icon-cp.svg/1200px-User_icon-cp.svg.png" alt="..." class="w-25 p-3">
-                    <form class="form-detail" action="vote01.php" method="post">
+                    <form class="form-detail" action="vote/vote01.php" method="post">
                         <div class="form-group">
                           <label for="exampleInputEmail1">(กรอกรหัสนักศึกษาเพื่อลงคะแนน)</label>
                           <input type="number" name="ids" class="form-control" placeholder="กรอกรหัสนักศึกษา">
@@ -84,7 +84,7 @@
                         <div class="modal-body">
                         พรรค...
                         <br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/User_icon-cp.svg/1200px-User_icon-cp.svg.png" alt="..." class="w-25 p-3">
-                        <form class="form-detail" action="vote02.php" method="post">
+                        <form class="form-detail" action="vote/vote02.php" method="post">
                         <div class="form-group">
                           <label for="exampleInputEmail1">(กรอกรหัสนักศึกษาเพื่อลงคะแนน)</label>
                           <input type="number" name="ids" class="form-control" placeholder="กรอกรหัสนักศึกษา">
@@ -117,7 +117,7 @@
                     <div class="modal-body">
                     พรรค...
                     <br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/User_icon-cp.svg/1200px-User_icon-cp.svg.png" alt="..." class="w-25 p-3">
-                    <form class="form-detail" action="vote03.php" method="post">
+                    <form class="form-detail" action="vote/vote03.php" method="post">
                         <div class="form-group">
                           <label for="exampleInputEmail1">(กรอกรหัสนักศึกษาเพื่อลงคะแนน)</label>
                           <input type="number" name="ids" class="form-control" placeholder="กรอกรหัสนักศึกษา">
@@ -150,7 +150,7 @@
                     <div class="modal-body">
                     พรรค...
                     <br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/User_icon-cp.svg/1200px-User_icon-cp.svg.png" alt="..." class="w-25 p-3">
-                    <form class="form-detail" action="vote04.php" method="post">
+                    <form class="form-detail" action="vote/vote04.php" method="post">
                         <div class="form-group">
                           <label for="exampleInputEmail1">(กรอกรหัสนักศึกษาเพื่อลงคะแนน)</label>
                           <input type="number" name="ids" class="form-control" placeholder="กรอกรหัสนักศึกษา">
@@ -184,7 +184,7 @@
                         <div class="modal-body">
                         พรรค...
                         <br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/User_icon-cp.svg/1200px-User_icon-cp.svg.png" alt="..." class="w-25 p-3">
-                        <form class="form-detail" action="votenone.php" method="post">
+                        <form class="form-detail" action="vote/votenone.php" method="post">
                         <div class="form-group">
                           <label for="exampleInputEmail1">(กรอกรหัสนักศึกษาเพื่อลงคะแนน)</label>
                           <input type="number" name="ids" class="form-control" placeholder="กรอกรหัสนักศึกษา">

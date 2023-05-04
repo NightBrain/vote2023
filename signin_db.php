@@ -4,7 +4,7 @@
 
     session_start();
 
-    require_once 'db.php';
+    require_once 'conn/db.php';
 
 
 
@@ -70,9 +70,9 @@
 
                             } else {
 
-                                $_SESSION['score_login'] = $row['id'];
+                                $_SESSION['admin_login'] = $row['id'];
 
-                                header("location: score.php");
+                                header("location: admin.php");
 
                             }
 

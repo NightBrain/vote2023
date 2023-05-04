@@ -1,5 +1,5 @@
 <?php 
-	include("db.php");
+	include("conn/db.php");
  
 	
  ?>
@@ -16,7 +16,7 @@
 
 			<tbody>
 				<tr>
-					<td>รวม <?= $fetch['vote03'] ?> คะแนน</td>
+					<td><?= $fetch['vote03'] ?> คะแนน</td>
 				</tr>
 			</tbody>
 <?php 	} ?>

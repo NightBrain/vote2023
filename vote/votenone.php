@@ -10,7 +10,7 @@
 
     session_start();
 
-    require_once "db.php";
+    require_once "../conn/db.php";
 
 
 
@@ -19,7 +19,7 @@
         $ids = $_POST['ids'];
 
 
-        $sql = $conn->prepare("INSERT INTO vote02(ids) VALUES(:ids)");
+        $sql = $conn->prepare("INSERT INTO nonee(ids) VALUES(:ids)");
 
         $sql->bindParam(":ids", $ids);
 
@@ -37,7 +37,7 @@
 
                     Swal.fire({
 
-                        title: 'ท่านเลือกหมายเลข 2',
+                        title: 'ท่านเลือกไม่ประสงค์ลงคะแนน',
 
                         text: 'ลงคะแนนสำเรจแล้ว',
 
@@ -53,7 +53,7 @@
 
             </script>";
 
-            header("refresh:2; url=vote.php");
+            header("refresh:2; url=../vote.php");
 
         } else {
 

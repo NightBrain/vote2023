@@ -6,7 +6,7 @@
 
     unset($_SESSION['vote_login']);
 
-    unset($_SESSION['score_login']);
+    unset($_SESSION['admin_login']);
 
     header('location: index.php');
 
