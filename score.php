@@ -6,14 +6,6 @@
 
     require_once 'db.php';
 
-    if (!isset($_SESSION['score_login'])) {
-
-      $_SESSION['error'] = 'กรุณาเข้าสู่ระบบ!';
-
-      header('location: index.php');
-
-  }
-
 ?>
 
 <!doctype html>
@@ -132,9 +124,6 @@
       <footer class="bg-light text-center text-white mt-5">
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        <center>
-          <a type="button" href="logout.php" class="btn btn-danger">LOGOUT</a>
-        </center><br>
           © 2023 Copyright: VOTE 2023 by
           <a class="text-white" href="https://www.facebook.com/kritsanai.mex/"> Night Brain</a>
         </div>

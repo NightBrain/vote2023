@@ -48,7 +48,7 @@
             <div class="panel panel-default" >
                 <div class="panel-heading">
                     <div class="panel-title text-center">
-                      <marquee scrollamount="5">VOTE 2023</marquee>
+                      <marquee scrollamount="5"><h3>VOTE 2023</h3></marquee>
                     </div>
                 </div>     
     
@@ -79,6 +79,10 @@
             </div>  
         </div>
     </div>
+    <center>
+      <a 
+      style="text-decoration: none; color: rgb(255, 123, 0);;" href="score.php"><h3>ผลคะแนนการเลือกตั้ง</h3></a>
+    </center>
     
     <div id="particles"></div>
     

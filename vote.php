@@ -53,8 +53,8 @@
                     <br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/User_icon-cp.svg/1200px-User_icon-cp.svg.png" alt="..." class="w-25 p-3">
                     <form class="form-detail" action="vote01.php" method="post">
                         <div class="form-group">
-                          <label for="exampleInputEmail1">(กรอกรหัสนักเรียนเพื่อลงคะแนน)</label>
-                          <input type="number" name="ids" class="form-control" placeholder="กรอกรหัสนักเรียน">
+                          <label for="exampleInputEmail1">(กรอกรหัสนักศึกษาเพื่อลงคะแนน)</label>
+                          <input type="number" name="ids" class="form-control" placeholder="กรอกรหัสนักศึกษา">
                         </div> 
                     </div>
                     <div class="modal-footer">
@@ -86,8 +86,8 @@
                         <br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/User_icon-cp.svg/1200px-User_icon-cp.svg.png" alt="..." class="w-25 p-3">
                         <form class="form-detail" action="vote02.php" method="post">
                         <div class="form-group">
-                          <label for="exampleInputEmail1">(กรอกรหัสนักเรียนเพื่อลงคะแนน)</label>
-                          <input type="number" name="ids" class="form-control" placeholder="กรอกรหัสนักเรียน">
+                          <label for="exampleInputEmail1">(กรอกรหัสนักศึกษาเพื่อลงคะแนน)</label>
+                          <input type="number" name="ids" class="form-control" placeholder="กรอกรหัสนักศึกษา">
                         </div> 
                     </div>
                     <div class="modal-footer">
@@ -119,8 +119,8 @@
                     <br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/User_icon-cp.svg/1200px-User_icon-cp.svg.png" alt="..." class="w-25 p-3">
                     <form class="form-detail" action="vote03.php" method="post">
                         <div class="form-group">
-                          <label for="exampleInputEmail1">(กรอกรหัสนักเรียนเพื่อลงคะแนน)</label>
-                          <input type="number" name="ids" class="form-control" placeholder="กรอกรหัสนักเรียน">
+                          <label for="exampleInputEmail1">(กรอกรหัสนักศึกษาเพื่อลงคะแนน)</label>
+                          <input type="number" name="ids" class="form-control" placeholder="กรอกรหัสนักศึกษา">
                         </div> 
                     </div>
                     <div class="modal-footer">
@@ -152,8 +152,8 @@
                     <br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/User_icon-cp.svg/1200px-User_icon-cp.svg.png" alt="..." class="w-25 p-3">
                     <form class="form-detail" action="vote04.php" method="post">
                         <div class="form-group">
-                          <label for="exampleInputEmail1">(กรอกรหัสนักเรียนเพื่อลงคะแนน)</label>
-                          <input type="number" name="ids" class="form-control" placeholder="กรอกรหัสนักเรียน">
+                          <label for="exampleInputEmail1">(กรอกรหัสนักศึกษาเพื่อลงคะแนน)</label>
+                          <input type="number" name="ids" class="form-control" placeholder="กรอกรหัสนักศึกษา">
                         </div> 
                     </div>
                     <div class="modal-footer">
@@ -186,8 +186,8 @@
                         <br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/User_icon-cp.svg/1200px-User_icon-cp.svg.png" alt="..." class="w-25 p-3">
                         <form class="form-detail" action="votenone.php" method="post">
                         <div class="form-group">
-                          <label for="exampleInputEmail1">(กรอกรหัสนักเรียนเพื่อลงคะแนน)</label>
-                          <input type="number" name="ids" class="form-control" placeholder="กรอกรหัสนักเรียน">
+                          <label for="exampleInputEmail1">(กรอกรหัสนักศึกษาเพื่อลงคะแนน)</label>
+                          <input type="number" name="ids" class="form-control" placeholder="กรอกรหัสนักศึกษา">
                         </div> 
                     </div>
                     <div class="modal-footer">
