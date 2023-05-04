@@ -125,9 +125,7 @@
 				<div class="order">
 					<div class="head">
 						<h3> </h3>
-            <a href="score.php">
-              <h2><i class='bx ' ><i class="fa-solid fa-up-right-and-down-left-from-center"></i></i></h2>
-            </a>
+          
 					</div>
           <table class="table">
               <thead>
