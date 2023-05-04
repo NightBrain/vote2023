@@ -16,8 +16,8 @@
     <!--<meta http-equiv="refresh" content="5">-->
     <title>VOTE 2023</title>
     <link rel="shortcut icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" />
-    <link rel="stylesheet" href="css.css">
-    <link rel="stylesheet" href="time.css">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/time.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     
